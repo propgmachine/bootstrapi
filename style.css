@@ -1,0 +1,654 @@
+.mediaViewInfo {
+	--web-view-name: BootstrapAPI;
+	--web-view-id: BootstrapAPI;
+	--web-scale-on-resize: true;
+	--web-add-image-compare: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: BootstrapAPI;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#BootstrapAPI {
+	position: absolute;
+	width: 1898px;
+	height: 685px;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	--web-view-name: BootstrapAPI;
+	--web-view-id: BootstrapAPI;
+	--web-scale-on-resize: true;
+	--web-add-image-compare: true;
+	--web-enable-deep-linking: true;
+}
+#Meme_Generator_App {
+	position: absolute;
+	width: 238.045px;
+	height: 324.842px;
+	left: 727.478px;
+	top: 117.064px;
+	overflow: visible;
+}
+#MemeRandom_Button_chain {
+	position: absolute;
+	width: 114.616px;
+	height: 37.186px;
+	left: 61.714px;
+	top: 287.656px;
+	overflow: visible;
+}
+#MemeRandom_Button_shape {
+	fill: rgba(21,131,216,1);
+}
+.MemeRandom_Button_shape {
+	overflow: visible;
+	position: absolute;
+	width: 114.616px;
+	height: 37.186px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#MemeRandom_Button_text {
+	left: 27.754px;
+	top: 13px;
+	position: absolute;
+	overflow: visible;
+	width: 61px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Tekton Pro;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	color: rgba(21,131,216,1);
+}
+#Meme_IMG_Box {
+	position: absolute;
+	width: 238.045px;
+	height: 204.936px;
+	left: 0px;
+	top: 69px;
+	overflow: visible;
+}
+#Meme_IMG_shape {
+	fill: rgba(21,131,216,1);
+	stroke: rgba(0,0,0,0);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Meme_IMG_shape {
+	overflow: visible;
+	position: absolute;
+	width: 238.953px;
+	height: 202.63px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Meme_IMG_chain {
+	position: absolute;
+	width: 32px;
+	height: 32px;
+	left: 102.522px;
+	top: 80.936px;
+	overflow: visible;
+}
+#Meme_IMG_square {
+	fill: transparent;
+}
+.Meme_IMG_square {
+	position: absolute;
+	overflow: visible;
+	width: 32px;
+	height: 32px;
+	left: 0px;
+	top: 0px;
+}
+#Meme_IMG_icon_shape {
+	fill: rgba(21,131,216,1);
+	stroke: rgba(0,0,0,0);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Meme_IMG_icon_shape {
+	overflow: visible;
+	position: absolute;
+	width: 32.998px;
+	height: 26.733px;
+	left: 0px;
+	top: 3px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#batmanSlapMemepng {
+	position: absolute;
+	width: 222px;
+	height: 202px;
+	left: 8.522px;
+	top: 2.936px;
+	overflow: visible;
+}
+#MemeGeneratorHeading_Box {
+	position: absolute;
+	width: 76px;
+	height: 18px;
+	left: 81.022px;
+	top: 41px;
+	overflow: visible;
+}
+#MemeGeneratorHeading_text {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 77px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Tekton Pro;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	color: rgba(21,131,216,1);
+}
+#MemeHeader_Box {
+	position: absolute;
+	width: 76px;
+	height: 31px;
+	left: 81.022px;
+	top: 0px;
+	overflow: visible;
+}
+#MemeHeader_Box_text {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 77px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Tekton Pro;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 31px;
+	color: rgba(21,131,216,1);
+}
+#Weather_Locator_App {
+	position: absolute;
+	width: 213.217px;
+	height: 455.887px;
+	left: 446.892px;
+	top: 116.064px;
+	overflow: visible;
+}
+#SearchButton_Box {
+	position: absolute;
+	width: 184.778px;
+	height: 45.687px;
+	left: 14.219px;
+	top: 410.2px;
+	overflow: visible;
+}
+#SearchButton_path {
+	fill: rgba(21,131,216,1);
+}
+.SearchButton_path {
+	overflow: visible;
+	position: absolute;
+	width: 184.778px;
+	height: 45.687px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#SearchButton_text {
+	left: 69.389px;
+	top: 14.843px;
+	position: absolute;
+	overflow: visible;
+	width: 47px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Tekton Pro;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	color: rgba(21,131,216,1);
+}
+#SearchButton_icon_chain {
+	position: absolute;
+	width: 15px;
+	height: 14px;
+	left: 10.889px;
+	top: 14.735px;
+	overflow: visible;
+}
+#SearchButton_icon_shape {
+	fill: transparent;
+}
+.SearchButton_icon_shape {
+	position: absolute;
+	overflow: visible;
+	width: 14px;
+	height: 14px;
+	left: 0px;
+	top: 0px;
+}
+#SearchButton_icon_path {
+	fill: rgba(21,131,216,1);
+}
+.SearchButton_icon_path {
+	overflow: visible;
+	position: absolute;
+	width: 12.758px;
+	height: 13.425px;
+	left: 1px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#WeatherInfo_Box {
+	position: absolute;
+	width: 203.13px;
+	height: 111.544px;
+	left: 5.043px;
+	top: 288.656px;
+	overflow: visible;
+}
+#DescriptionFormField_Box {
+	position: absolute;
+	width: 203.13px;
+	height: 33.544px;
+	left: 0px;
+	top: 78px;
+	overflow: visible;
+}
+#DescriptionFormField_text {
+	left: 58.565px;
+	top: 7.772px;
+	position: absolute;
+	overflow: visible;
+	width: 87px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Tekton Pro;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	color: rgba(21,131,216,1);
+}
+#DescriptionFormField_path {
+	fill: rgba(21,131,216,1);
+}
+.DescriptionFormField_path {
+	overflow: visible;
+	position: absolute;
+	width: 203.13px;
+	height: 33.544px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#WindFormField_Box {
+	position: absolute;
+	width: 203.13px;
+	height: 33.544px;
+	left: 0px;
+	top: 39px;
+	overflow: visible;
+}
+#WindFormField_text {
+	left: 83.565px;
+	top: 7.772px;
+	position: absolute;
+	overflow: visible;
+	width: 37px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Tekton Pro;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	color: rgba(21,131,216,1);
+}
+#WindFormField_path {
+	fill: rgba(21,131,216,1);
+}
+.WindFormField_path {
+	overflow: visible;
+	position: absolute;
+	width: 203.13px;
+	height: 33.544px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#TemperatureFormField_Box {
+	position: absolute;
+	width: 203.13px;
+	height: 33.544px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#TemperatureFormField_text {
+	left: 54.565px;
+	top: 7.772px;
+	position: absolute;
+	overflow: visible;
+	width: 95px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Tekton Pro;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	color: rgba(21,131,216,1);
+}
+#TemperatureFormField_path {
+	fill: rgba(21,131,216,1);
+}
+.TemperatureFormField_path {
+	overflow: visible;
+	position: absolute;
+	width: 203.13px;
+	height: 33.544px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#WeatherMap_IMG_Box {
+	position: absolute;
+	width: 213.217px;
+	height: 202.426px;
+	left: 0px;
+	top: 70px;
+	overflow: visible;
+}
+#WeatherMap_IMG_Shape {
+	fill: rgba(21,131,216,1);
+	stroke: rgba(0,0,0,0);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.WeatherMap_IMG_Shape {
+	overflow: visible;
+	position: absolute;
+	width: 214.134px;
+	height: 203.401px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#WeatherMap_IMG_icon_chain {
+	position: absolute;
+	width: 32px;
+	height: 32px;
+	left: 91.108px;
+	top: 84.936px;
+	overflow: visible;
+}
+#WeatherMap_IMG_icon_square {
+	fill: transparent;
+}
+.WeatherMap_IMG_icon_square {
+	position: absolute;
+	overflow: visible;
+	width: 32px;
+	height: 32px;
+	left: 0px;
+	top: 0px;
+}
+#WeatherMap_IMG_icon_path {
+	fill: rgba(21,131,216,1);
+}
+.WeatherMap_IMG_icon_path {
+	overflow: visible;
+	position: absolute;
+	width: 32px;
+	height: 28.213px;
+	left: 0px;
+	top: 2px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#GISLocatorHeader_Box {
+	position: absolute;
+	width: 94px;
+	height: 18px;
+	left: 55.108px;
+	top: 42px;
+	overflow: visible;
+}
+#GISLocatorHeader_Box_text {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 95px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Tekton Pro;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	color: rgba(21,131,216,1);
+}
+#WeatherHeader_Box {
+	position: absolute;
+	width: 108px;
+	height: 31px;
+	left: 48.108px;
+	top: 0px;
+	overflow: visible;
+}
+#WeatherHeader_Box_text {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 109px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Tekton Pro;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 31px;
+	color: rgba(21,131,216,1);
+}
+#Random_Dog_Generator_App {
+	position: absolute;
+	width: 238.045px;
+	height: 344.931px;
+	left: 141.478px;
+	top: 117.064px;
+	overflow: visible;
+}
+#RandomDog_Button_Box {
+	position: absolute;
+	width: 165.093px;
+	height: 57.274px;
+	left: 36.476px;
+	top: 287.656px;
+	overflow: visible;
+}
+#randomDog_Button_path {
+	fill: rgba(21,131,216,1);
+}
+.randomDog_Button_path {
+	overflow: visible;
+	position: absolute;
+	width: 165.093px;
+	height: 57.274px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#randomDog_Button_text {
+	left: 40px;
+	top: 21px;
+	position: absolute;
+	overflow: visible;
+	width: 89px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Tekton Pro;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	color: rgba(21,131,216,1);
+}
+#RandomDog_IMG_Box {
+	position: absolute;
+	width: 238.045px;
+	height: 201.936px;
+	left: 0px;
+	top: 73px;
+	overflow: visible;
+}
+#randomDog_IMG_icon_Chain {
+	position: absolute;
+	width: 32px;
+	height: 32px;
+	left: 102.522px;
+	top: 80.936px;
+	overflow: visible;
+}
+#randomDog_IMG_icon_square {
+	fill: transparent;
+}
+.randomDog_IMG_icon_square {
+	position: absolute;
+	overflow: visible;
+	width: 32px;
+	height: 32px;
+	left: 0px;
+	top: 0px;
+}
+#randomDog_IMG_icon_Shape {
+	fill: rgba(21,131,216,1);
+	stroke: rgba(0,0,0,0);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.randomDog_IMG_icon_Shape {
+	overflow: visible;
+	position: absolute;
+	width: 32.998px;
+	height: 26.733px;
+	left: 0px;
+	top: 3px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#randomDog_IMG_Shape {
+	fill: rgba(21,131,216,1);
+	stroke: rgba(0,0,0,0);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.randomDog_IMG_Shape {
+	overflow: visible;
+	position: absolute;
+	width: 238.953px;
+	height: 202.63px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Rusty_Ryderpng {
+	position: absolute;
+	width: 207px;
+	height: 199px;
+	left: 15.522px;
+	top: 2.936px;
+	overflow: visible;
+}
+#GeneratorHeading_Box {
+	position: absolute;
+	width: 76px;
+	height: 18px;
+	left: 76.522px;
+	top: 44px;
+	overflow: visible;
+}
+#GeneratorHeading_text {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 77px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Tekton Pro;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	color: rgba(21,131,216,1);
+}
+#RandomDogHeader_Box {
+	position: absolute;
+	width: 158px;
+	height: 31px;
+	left: 40.022px;
+	top: 0px;
+	overflow: visible;
+}
+#RandomDogHeader_text {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 159px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Tekton Pro;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 31px;
+	color: rgba(21,131,216,1);
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 1;
+	}
+	37.5% {
+		opacity: 1;
+	}
+	50% {
+		opacity: 0;
+	}
+	87.5% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+#BootstrapAPI_snapshot {
+	animation: fadein 5s linear 0s infinite;
+	pointer-events: none;
+	position: absolute;
+	width: 1898px;
+	height: 685px;
+	left: 0;
+	top: 0;
+}
