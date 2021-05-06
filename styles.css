@@ -1,26 +1,138 @@
 body {
     margin: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-size: 18px;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+    
 }
 
-h1 {
+h3 {
     font-size: 36x;
+    text-align: center;
+	font-family: Tekton Pro;
+    align-self: center;
 }
 
-.api-section {
-    width: 90%;
+.doggo-container {
+    width: flex;
     max-width: 900px;
     padding: 24px;
-    border: 1px solid #999;
+    border: 5px solid rgb(73, 83, 164);
     border-radius: 4px;
     margin: 24px 24px 0;
+    display: flex;
+    flex-direction: column;
 }
 
-.api-content {
-    font-weight: bold;
-    font-style: italic;
-    color: #999;
+.card {
+    position: flex;
+    align-items: center;
+    background-color: rgb(252, 252, 252);
+}
+
+.weather-container {
+    align-items: center;
+    padding: 10px;
+    max-width: 900px;
+    border: 5px solid rgb(73, 83, 164);
+    border-radius: 4px;
+    margin: 10px 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.meme-container {
+    align-items: center;
+    width: flex;
+    max-width: 900px;
+    padding: 10px;
+    border: 5px solid rgb(73, 83, 164);
+    border-radius: 4px;
+    margin: 10px 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+#rando-doggo {
+    width: 650px;
+}
+#bark-button {
+    position: flex;
+	width: 165.093px;
+	height: 57.274px;
+	left: 36.476px;
+	top: 287.656px;
+    padding: 3px;
+    color: rgb(35, 38, 184)
+}
+.card {
+    position: flex;
+    align-items: center;
+    background-color: rgb(252, 252, 252);
+}
+#weather-input-container {
+    align-items: center;
+    position: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.weatherinput {
+    position: relative;
+}
+
+#weather-button {
+    position: center;
+	width: 165.093px;
+	height: 57.274px;
+	left: 36.476px;
+	top: 287.656px;
+    padding: 10px;
+    color: rgb(35, 38, 184)
+}
+
+.cloudy {
+    display: flex;
+    background-image: url("/IMG/Cloudy.png");
+}
+
+.sunny {
+    display: flex;
+    background-image: url("/IMG/Sunny.png");
+}
+
+.windy {
+    display: flex;
+    background-image: url("/IMG/Windy.png");
+}
+
+.rainy {
+    display: flex;
+    background-image: url("/IMG/Rainy.png");
+}
+
+.snowy {
+    display: flex;
+    background-image: url("/IMG/Snowy.png");
+}
+
+#weather-api {
+    height: 550px;
+}
+
+
+#meme-api {
+    height: 550px;
+}
+
+:root {
+    font-family: Helvetica;
+    font-size: 14px;
+}
+
+* {
+    font: inherit;
+}
+
+#meme-canvas {
+    width: 300px;
 }

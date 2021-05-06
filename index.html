@@ -14,21 +14,77 @@
 <body>
     
     <div class="api-section">
-        <h1>
-            Part 1: Random Dog Generator
-        </h1>
-        <div class="api-content">
-            [INSERT RANDOM DOG GENERATOR HERE]
+        <div class="doggo-container">
+            <h3>
+                Rando Doggo Generato
+            </h3>
+            <div class="card">
+                <div>
+                    <img src="" id="rando-doggo" class="card-img-top" alt="Rando Doggo Image">
+                </div>
+                <div>
+                    <button type="button" class="btn btn-outline-success" id="bark-button">Bark Button</button>
+                </div>               
+            </div>
         </div>
     </div>
 
-    <div class="api-section">
-        <h1>
-            Part 2: Weather App
-        </h1>
-        <div class="api-content">
-            [INSERT WEATHER APP HERE]
+    <div class="api-section description" id="weather-api">
+        
+        <div class="weather-container">
+            <h3>
+                Weather Report
+            </h3>
+                <div id="weather-input-container">
+                    <h4>What's the weather report, Ollie?</h4>
+                    <input type="text" class="weather" name="weatherinput" id="city-name">
+                    
+                    <button id="weather-button">Its Go' Rain!</button>
+                </div>
+                <div id="weather-data-container">
+                    <div id="temp" class="weather-data" style="color: black">Temperature: </div>
+                    <div id="wind" class="weather-data" style="color: black">Wind: </div>
+                    <div id="description" class="weather-data" style="color: black">Weather Description: </div>
+                </div>
+                
         </div>
+        
+    </div>
+
+    <div class="api-section description" id="meme-api">
+        
+        <div class="meme-container">
+            <h3>
+                Meme Maker
+            </h3>
+                <div id="meme-container">
+                    <div>
+                        <div>
+                            <p>
+                                <textarea id="top-text"></textarea>
+                                Text size: <input type="range" id="top-text-size-input" min="0.05" max="0.25" value="0.15" step="0.01">
+                            </p>
+                        </div>
+                        <div>
+                            <p>
+                                <textarea id="bottom-text"></textarea>
+                                Text size: <input type="range" id="bottom-text-size-input" min="0.05" max="0.25" value="0.15" step="0.01">
+                            </p>
+                        </div>
+                    <p>
+                        <input type="file" id="image-input" accept="image/*">
+                    </p>
+                    <p>
+                        <button id="generate-btn">Meme Make</button>
+                    </p>
+                    <p>
+                        <canvas id="meme-canvas" title="Right click -> &quot;Save image as...&quot;"></canvas>
+                    </p>
+                    <script src="main.js"></script>
+                    </div>
+                </div>
+        </div>
+        
     </div>
 
     <script src="main.js"></script>
