@@ -26,10 +26,6 @@ function getDoggoImage() {
 }
 
 
-
-
-
-
 //============================== Weather App ================//
 let tempHolder;
 let windHolder;
@@ -128,6 +124,19 @@ function getsTheWeather() {
 
 //-----APIS----------------//
 
+fetch("https://ronreiter-meme-generator.p.rapidapi.com/images", {
+	"method": "GET",
+	"headers": {
+		"x-rapidapi-key": "SIGN-UP-FOR-KEY",
+		"x-rapidapi-host": "ronreiter-meme-generator.p.rapidapi.com"
+	}
+})
+.then(response => {
+	console.log(response);
+})
+.catch(err => {
+	console.error(err);
+});
 
 
 //-----EVENT LISTENER-----//
